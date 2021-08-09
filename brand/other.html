@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown More</title>
+    <link rel="stylesheet" href="/main/style.css">
+</head>
+<style>
+    body {
+        background-image: url(/image/space.jpg);
+    }
+
+
+    .card-body {
+        font-size: 2rem;
+        margin-top: 12px;
+    }
+
+    .container {
+        text-align: center;
+
+        justify-content: left;
+        background-color: beige;
+        display: inline-block;
+        border-bottom: 2px solid black;
+        padding-bottom: 25px;
+        border-left: 2px solid black;
+        padding-left: 25px;
+        border-right: 2px solid black;
+        padding-right: 25px;
+        border-top: 2px solid black;
+        padding-top: 25px;
+        border-radius: 2px;
+        margin: 35px;
+
+    }
+
+    .heading {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Italiana', serif;
+        text-decoration: underline;
+        margin-top: 24px;
+        margin-bottom: 3.5rem;
+        text-align: center;
+        color: orange;
+    }
+
+    .head {
+        /* text-decoration: underline; */
+        font-family: 'Baloo Bhai 2', cursive;
+        color: orange;
+        font-size: 30px;
+        margin: -17px;
+        padding: 20px;
+    }
+
+    .content {
+
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    /* .img {
+        justify-content: right;
+        text-align: center;
+        
+    } */
+    .card {
+        display: block;
+    }
+
+    .card-img-top {
+        width: 273px;
+        margin: 0;
+    }
+
+    
+</style>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <a href="/main/index.html">MOTORASM</a>
+        </div>
+        <div class="menu">
+            <!-- <a href="#">Home</a> -->
+            <!-- <a href="#">Cars</a> -->
+            <div class="dropdown">
+                <button class="dropbtn">Cars
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/brand/bmw.html">BMW</a>
+                    <a href="/brand/lambo.html">LAMBORGHINI</a>
+                    <a href="/brand/bugatti.html">BUGATTI</a>
+                    <!-- <a href="#">Mercedes</a> -->
+                    <a href="/brand/Rollsroyce.html">Rolls Royce</a>
+                    <a href="/brand/tesla.html">Tesla</a>
+                     <!--<a href="#">Porsche</a>
+                    <a href="#">Ferrari</a> -->
+                    <a href="/brand/other.html">More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="moto">
+            <a href="/main/signup.html">Sign up</a>
+        </div>
+        <!-- <a class="insta" href="/">
+            <div class="logo-image">
+                  <img src="insta.jpg" class="img-fluid">
+            </div>
+      </a> -->
+    </nav>
+
+
+
+
+    <!-- card  -->
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/alfalogo.png" class="card-img-top" alt="alfa romeo">
+            <div class="card-body">
+                <a href="/brand/alfaromeo.html">Alfa Romeo</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/astonlogo.jpg" class="card-img-top" alt="aston martin">
+            <div class="card-body">
+                <a href="/brand/astonmartin.html">Aston Martin</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/bentleylogo.jpg" class="card-img-top" alt="bentley">
+            <div class="card-body">
+                <a href="/brand/bentley.html">Bentley</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+
+   
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/bmwlogo.jpg" class="card-img-top" alt="BMW">
+            <div class="card-body">
+                <a href="/brand/bmw.html">BMW</a>
+                <!-- <p class="card-text">The BMW 5 Series is an executive car manufactured by BMW since 1972. It is the
+                    successor to the New Class Sedans and is currently in its seventh generation.........</p> -->
+                <!-- <a href="m5.html" class="btn btn-primary">Continue Reading</a> -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/bugattilogo.jpg" class="card-img-top" alt="Bugatti">
+            <div class="card-body">
+                <a href="/brand/bugatti.html">Bugatti</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/dodgelogo.jpg" class="card-img-top" alt="Dodge">
+            <div class="card-body">
+                <a href="/brand/dodge.html">Dodge</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/ferrarilogo.jpg" class="card-img-top" alt="Ferrari">
+            <div class="card-body">
+                <a href="/brand/ferrari.html">Ferrari</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/fordlogo.jpg" class="card-img-top" alt="Ford">
+            <div class="card-body">
+                <a href="/brand/ford.html">Ford</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/gmlogo.jpg" class="card-img-top" alt="GM">
+            <div class="card-body">
+                <a href="/brand/gm.html">General Motors</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/gumpertlogo.jpg" class="card-img-top" alt="gumpert">
+            <div class="card-body">
+                <a href="/brand/gumpert.html">Gumpert</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/hondalogo.jpg" class="card-img-top" alt="Honda">
+            <div class="card-body">
+                <a href="/brand/honda.html">Honda</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/hyundailogo.jpg" class="card-img-top" alt="Hyundai">
+            <div class="card-body">
+                <a href="/brand/hyundai.html">Hyundai</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/jaguarlogo.png" class="card-img-top" alt="Jaguar">
+            <div class="card-body">
+                <a href="/brand/jaguar.html">Jaguar</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/jeeplogo.jpg" class="card-img-top" alt="jeep">
+            <div class="card-body">
+                <a href="/brand/jeep.html">Jeep</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/koeingsegglogo.png" class="card-img-top" alt="Koeingsegg">
+            <div class="card-body">
+                <a href="/brand/koeingsegg.html">Koeingsegg</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/lamborghinilogo.jpg" class="card-img-top" alt="Lamborghini">
+            <div class="card-body">
+                <a href="/brand/lambo.html">Lamborghini</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/lotuslogo.jpg" class="card-img-top" alt="Lotus">
+            <div class="card-body">
+                <a href="/brand/lotus.html">Lotus</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/lexuslogo.jpg" class="card-img-top" alt="Lexus">
+            <div class="card-body">
+                <a href="/brand/lexus.html">Lexus</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/mclarenlogo.jpg" class="card-img-top" alt="Mclaren">
+            <div class="card-body">
+                <a href="/brand/mclaren.html">Mclaren</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/mercedeslogo.png" class="card-img-top" alt="Mercedes-Benz">
+            <div class="card-body">
+                <a href="/brand/mercedes.html">Mercedes-Benz</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/mistubishilogo.jpg" class="card-img-top" alt="Mistubishi">
+            <div class="card-body">
+                <a href="/brand/mistubishi.html">Mistubishi</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/maseratilogo.png" class="card-img-top" alt="Maserati">
+            <div class="card-body">
+                <a href="/brand/maserati.html">Maserati</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/mazdalogo.jpg" class="card-img-top" alt="Mazda">
+            <div class="card-body">
+                <a href="/brand/mazda.html">Mazda</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/nissanlogo.jpg" class="card-img-top" alt="Nissan">
+            <div class="card-body">
+                <a href="/brand/nissan.html">Nissan</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/paganilogo.png" class="card-img-top" alt="Pagani">
+            <div class="card-body">
+                <a href="/brand/pagani.html">Pagani</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/peugeotlogo.jpg" class="card-img-top" alt="Peugeot">
+            <div class="card-body">
+                <a href="/brand/peugeot.html">Peugeot</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/pontaiclogo.png" class="card-img-top" alt="Pontaic">
+            <div class="card-body">
+                <a href="/brand/pontaic.html">Pontaic</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/porschelogo.jpg" class="card-img-top" alt="Porsche">
+            <div class="card-body">
+                <a href="/brand/posche.html">Porsche</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/renaultlogo.png" class="card-img-top" alt="Renault">
+            <div class="card-body">
+                <a href="/brand/renault.html">Renault</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/rrlogo.jpg" class="card-img-top" alt="Rolls-Royce">
+            <div class="card-body">
+                <a href="/brand/Rollsroyce.html">Rolls-Royce</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/shelbylogo.jpg" class="card-img-top" alt="Shelby">
+            <div class="card-body">
+                <a href="/brand/shelby.html">Shelby</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/spykerlogo.png" class="card-img-top" alt="Spyker">
+            <div class="card-body">
+                <a href="/brand/spyker.html">Spyker</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/teslalogo.png" class="card-img-top" alt="Tesla">
+            <div class="card-body">
+                <a href="/brand/tesla.html">Tesla</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/volkswagenlogo.png" class="card-img-top" alt="Volkswagen">
+            <div class="card-body">
+                <a href="/brand/vw.html">Volkswagen</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/volvologo.jpg" class="card-img-top" alt="Volvo">
+            <div class="card-body">
+                <a href="/brand/volvo.html">Volvo</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <img src="/image/zenvo.jpg" class="card-img-top" alt="Zenvo">
+            <div class="card-body">
+                <a href="/brand/zenvo.html">Zenvo</a>
+                <!-- <p></p> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- card  -->
+
+</body>
+
+</html>

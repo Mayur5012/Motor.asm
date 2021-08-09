@@ -1,0 +1,552 @@
+
+ /* navbar  */
+  
+ #navbar{
+   text-transform: uppercase;
+  /* padding-top: .5rem;
+  padding-bottom: .5rem; */
+  margin-left: -4px;
+  margin-right: -4px;
+  background-color: rgb(196, 196, 196);
+  /* background-color: transparent; */
+  display: flex;
+  text-decoration: none;
+  margin-top: -8px;
+ z-index: 100;
+  font-size: 2.5rem;
+  text-align: center;
+  
+  overflow: hidden;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+.logo{
+text-decoration: whitesmoke;
+padding: 4px 10px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-left: 14px;
+  padding: 0px;
+}
+.moto{
+  text-decoration: whitesmoke;
+
+  padding: 4px 10px;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-left: 14px;
+  padding: 0px;
+}
+.menu{
+text-decoration: whitesmoke;
+display: block;
+  padding: 4px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  margin-left: 14px;
+  padding: 0px;
+}
+
+
+
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Style the dropdown button to fit inside the topnav */
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 4px 10px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Style the links inside the dropdown */
+.dropdown-content a {
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.5rem;
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color:transparent;
+  color: white;
+}
+
+/* Add a black background to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Show the dropdown menu when the user moves the mouse over the dropdown button */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dropdown container - needed to position the dropdown content */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Style the dropdown button to fit inside the topnav */
+  .dropdown .dropbtn {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 4px 10px;
+    background-color: inherit;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0;
+    margin-top: -9px;
+  }
+  
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+      font-size: 1rem;
+      font-family: 'Baloo Bhai 2', cursive;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+/* Add a dark background on topnav links and the dropdown button on hover */
+.topnav a:hover, .dropdown:hover .dropbtn {
+    background-color:transparent;
+    color: white;
+  }
+  
+  /* Add a grey background to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Show the dropdown menu when the user moves the mouse over the dropdown button */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child), .dropdown .dropbtn {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .topnav.responsive .dropdown {float: none;}
+    .topnav.responsive .dropdown-content {position: relative;}
+    .topnav.responsive .dropdown .dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }  
+
+
+
+
+
+
+
+
+
+
+
+
+  /* caurosel  */
+  * {box-sizing:border-box}
+
+
+
+
+
+
+
+
+  /* slide show  */
+  #slideshow {
+    margin: 0;
+    background: lightgray;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fefefe;
+  }
+  .slideshow {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d; 
+    animation: rotate360 50s infinite forwards linear;
+  }
+  .carousel__face { 
+    margin-top: 0;
+    position: absolute;
+    width: 300px;
+    /* height: 187px; */
+    height: 150px;
+    top: -29px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(0,0,0, 0%);
+    display: flex;
+  }
+  
+  span {
+    margin: auto;
+    font-size: 2rem;
+  }
+  
+  
+  .carousel__face:nth-child(1) {
+    background-image: url("/image/brandlogo.png");
+    transform: rotateY(  0deg) translateZ(430px); }
+  .carousel__face:nth-child(2) { 
+    background-image: url("/image/rolls.png");
+      transform: rotateY( 40deg) translateZ(430px); }
+  .carousel__face:nth-child(3) {
+    background-image: url("/image/slidechiron.jpg");
+    transform: rotateY( 80deg) translateZ(430px); }
+  .carousel__face:nth-child(4) {
+    background-image: url("/image/slidezonda.jpg");
+    transform: rotateY(120deg) translateZ(430px); }
+  .carousel__face:nth-child(5) { 
+    background-image: url("/image/f10cr.jpg");
+   transform: rotateY(160deg) translateZ(430px); }
+  .carousel__face:nth-child(6) { 
+    background-image: url("/image/slideferrari.jpg");
+   transform: rotateY(200deg) translateZ(430px); }
+  .carousel__face:nth-child(7) { 
+    background-image: url("/image/l3.jpg");
+   transform: rotateY(240deg) translateZ(430px); }
+  .carousel__face:nth-child(8) {
+    background-image: url("/image/merc.jpg");
+    transform: rotateY(280deg) translateZ(430px); }
+  .carousel__face:nth-child(9) {
+    background-image: url("/image/slidetesla.jpg");
+    transform: rotateY(320deg) translateZ(430px); }
+  
+  
+  
+  @keyframes rotate360 {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* sign up  */
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+/* footer  */
+textarea {
+  resize: none;
+}
+
+.text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+white-space: nowrap;
+}
+
+
+
+.svg-inline--fa {
+vertical-align: -0.1rem;
+}
+
+.rounded-social-buttons {
+text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+display: inline-block;
+position: relative;
+cursor: pointer;
+width: 3.125rem;
+height: 3.125rem;
+border: 0.125rem solid transparent;
+padding: 1px;
+text-decoration: none;
+text-align: center;
+color: #fefefe;
+font-size: 1.5625rem;
+font-weight: normal;
+line-height: 2em;
+border-radius: 1.6875rem;
+transition: all 0.5s ease;
+margin-right: 1.25rem;
+margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+-webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+}
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+color: #3b5998;
+background: #fefefe;
+border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+color: #55acee;
+background: #fefefe;
+border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+color: #007bb5;
+background: #fefefe;
+border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+background: #bb0000;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+color: #bb0000;
+background: #fefefe;
+border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+color: #125688;
+background: #fefefe;
+border-color: #125688;
+}
